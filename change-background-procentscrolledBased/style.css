@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spacer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  width: 100%;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: lightcoral;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+  transition: background-color 0.2s;
+}

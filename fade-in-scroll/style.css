@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+
+img {
+  width: 600px;
+  height: 400px;
+  background-color: #eee; /* Placeholder color before load */
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+img.fade-in {
+  opacity: 1;
+}
